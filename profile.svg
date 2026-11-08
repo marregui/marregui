@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 920" width="900" height="920" role="img" aria-label="Miguel Arregui: open-source record in database internals, performance tooling and AI engineering">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .ink { fill: #2A2620; }
+    .muted { fill: #6B6358; }
+    .ochre { fill: #A8761C; }
+    .label { font-size: 14px; letter-spacing: 3px; font-weight: 600; }
+    .title { font-size: 19px; font-weight: 650; }
+    .years { font-size: 15px; }
+    .stat { font-size: 15px; }
+    .body { font-size: 15px; }
+    .card { fill: #FFFDF8; stroke: #DDD3C1; stroke-width: 1; }
+    .rule { stroke: #DDD3C1; stroke-width: 1; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="899" height="919" rx="14" fill="#F7F3EA" stroke="#DDD3C1"/>
+
+  <!-- header -->
+  <text x="40" y="62" class="sans ink" font-size="28" font-weight="600" letter-spacing="5">MIGUEL ARREGUI</text>
+  <text x="40" y="92" class="sans muted" font-size="16">Concurrency · JVM performance · database internals · tooling for AI-assisted engineering</text>
+  <rect x="40" y="110" width="64" height="3" fill="#A8761C"/>
+  <line x1="112" y1="111.5" x2="860" y2="111.5" class="rule"/>
+
+  <!-- headline figures -->
+  <g class="sans">
+    <text x="40" y="168" class="ochre" font-size="40" font-weight="600">150</text>
+    <text x="40" y="194" class="ink body">merged PRs in QuestDB,</text>
+    <text x="40" y="214" class="ink body">CrateDB and HiveMQ Edge</text>
+
+    <text x="333" y="168" class="ochre" font-size="40" font-weight="600">249</text>
+    <text x="333" y="194" class="ink body">pull requests reviewed</text>
+    <text x="333" y="214" class="ink body">in the same three codebases</text>
+
+    <text x="626" y="168" class="ochre" font-size="40" font-weight="600">Top 25</text>
+    <text x="626" y="194" class="ink body">of all contributors in each:</text>
+    <text x="626" y="214" class="ink body">#10, #14 and #23</text>
+  </g>
+
+  <!-- band 1 -->
+  <text x="40" y="262" class="sans ochre label">DATABASE AND SYSTEMS INTERNALS</text>
+  <g class="sans">
+    <rect x="40" y="276" width="260" height="140" rx="8" class="card"/>
+    <text x="58" y="306" class="ink title">QuestDB</text>
+    <text x="282" y="306" class="muted years" text-anchor="end">2021–2023</text>
+    <text x="58" y="336" class="mono ochre stat">60 merged · #14</text>
+    <text x="58" y="366" class="muted body">Core database team: SQL,</text>
+    <text x="58" y="388" class="muted body">partitions, storage, ingestion</text>
+
+    <rect x="320" y="276" width="260" height="140" rx="8" class="card"/>
+    <text x="338" y="306" class="ink title">CrateDB</text>
+    <text x="562" y="306" class="muted years" text-anchor="end">2019–2021</text>
+    <text x="338" y="336" class="mono ochre stat">38 merged · #23</text>
+    <text x="338" y="366" class="muted body">Core engine: checkpoints,</text>
+    <text x="338" y="388" class="muted body">constraints, joins, SQL</text>
+
+    <rect x="600" y="276" width="260" height="140" rx="8" class="card"/>
+    <text x="618" y="306" class="ink title">HiveMQ Edge</text>
+    <text x="842" y="306" class="muted years" text-anchor="end">2024–now</text>
+    <text x="618" y="336" class="mono ochre stat">52 merged · #10</text>
+    <text x="618" y="366" class="muted body">OPC UA adapter, browse and</text>
+    <text x="618" y="388" class="muted body">import, bridges, queue lifecycle</text>
+  </g>
+
+  <!-- band 2 -->
+  <text x="40" y="458" class="sans ochre label">PERFORMANCE AND DATA TOOLING</text>
+  <g class="sans">
+    <rect x="40" y="472" width="400" height="130" rx="8" class="card"/>
+    <text x="58" y="502" class="ink title">jfrq</text>
+    <text x="422" y="502" class="muted years" text-anchor="end">author</text>
+    <text x="58" y="530" class="mono ochre stat">Java 25 · v0.2.0 · Apache-2.0</text>
+    <text x="58" y="560" class="muted body">Asks a Java Flight Recorder recording why a thread</text>
+    <text x="58" y="582" class="muted body">stalled, who held the lock, what allocates</text>
+
+    <rect x="460" y="472" width="400" height="130" rx="8" class="card"/>
+    <text x="478" y="502" class="ink title">questdb-connect</text>
+    <text x="842" y="502" class="muted years" text-anchor="end">author</text>
+    <text x="478" y="530" class="mono ochre stat">139 commits · #1 contributor</text>
+    <text x="478" y="560" class="muted body">SQLAlchemy dialect and Apache Superset</text>
+    <text x="478" y="582" class="muted body">integration for QuestDB</text>
+  </g>
+
+  <!-- band 3 -->
+  <text x="40" y="644" class="sans ochre label">AI ENGINEERING</text>
+  <g class="sans">
+    <rect x="40" y="658" width="400" height="130" rx="8" class="card"/>
+    <text x="58" y="688" class="ink title">comando</text>
+    <text x="422" y="688" class="muted years" text-anchor="end">author</text>
+    <text x="58" y="716" class="mono ochre stat">140k lines · 290 test classes · 141 ADRs</text>
+    <text x="58" y="746" class="muted body">Desktop workbench for SQL and Claude Code:</text>
+    <text x="58" y="768" class="muted body">sessions answer with tables, plots and diffs</text>
+
+    <rect x="460" y="658" width="400" height="130" rx="8" class="card"/>
+    <text x="478" y="688" class="ink title">java-standard</text>
+    <text x="842" y="688" class="muted years" text-anchor="end">author</text>
+    <text x="478" y="716" class="mono ochre stat">140 rules · v2.0.3 · checked in CI</text>
+    <text x="478" y="746" class="muted body">A Java coding standard written for coding</text>
+    <text x="478" y="768" class="muted body">agents first, every rule cited by its ID</text>
+  </g>
+
+  <!-- career line -->
+  <line x1="70" y1="836" x2="830" y2="836" class="rule"/>
+  <g class="sans">
+    <circle cx="70.0" cy="836" r="5" fill="#A8761C"/>
+    <text x="70.0" y="866" class="ink body" text-anchor="middle">CERN</text>
+    <circle cx="196.7" cy="836" r="5" fill="#A8761C"/>
+    <text x="196.7" y="866" class="ink body" text-anchor="middle">ESA</text>
+    <circle cx="323.3" cy="836" r="5" fill="#A8761C"/>
+    <text x="323.3" y="866" class="ink body" text-anchor="middle">EMBL-EBI</text>
+    <circle cx="450.0" cy="836" r="5" fill="#A8761C"/>
+    <text x="450.0" y="866" class="ink body" text-anchor="middle">RBS · UBS</text>
+    <circle cx="576.7" cy="836" r="5" fill="#A8761C"/>
+    <text x="576.7" y="866" class="ink body" text-anchor="middle">CrateDB</text>
+    <circle cx="703.3" cy="836" r="5" fill="#A8761C"/>
+    <text x="703.3" y="866" class="ink body" text-anchor="middle">QuestDB</text>
+    <circle cx="830.0" cy="836" r="6" fill="#FFFDF8" stroke="#A8761C" stroke-width="2"/>
+    <text x="830.0" y="866" class="ochre body" text-anchor="middle">HiveMQ</text>
+  </g>
+  <text x="40" y="900" class="sans muted" font-size="14">Particle physics, space, bioinformatics, banking, databases, industrial IoT. Figures from GitHub, November 2026.</text>
+</svg>
